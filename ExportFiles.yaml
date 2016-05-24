@@ -116,7 +116,7 @@ node_templates:
           implementation: scripts/block-deploy3.sh
           inputs:
             process:
-             args: [ExportFiles, container, 'https://github.com/rawaqasha/eScBlocks-host/raw/master/exportfiles1.jar'] 
+             args: [ExportFiles, container, 'https://github.com/WorkflowCenter-Repositories/ExportFiles-Task/raw/master/exportfiles1.jar'] 
 
   finalBlock:
     type: cloudify.nodes.ApplicationModule
